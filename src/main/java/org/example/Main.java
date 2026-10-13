@@ -3,7 +3,7 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     static void main() {
-        String name = "Palesa";
+        String name = "Confidence";
         int age = 24;
         double averageMark = 80.9;
         boolean isRegistered = true;
