@@ -14,8 +14,8 @@ public class Main {
         //PassOrFail results = new PassOrFail();
         //results.learnerResults();
 
-        NumberAnalysis results = new NumberAnalysis();
-        results.Number();
+        //NumberAnalysis results = new NumberAnalysis();
+        //results.Number();
 
         FullStack fullStack = new FullStack("Karabo",54,"female");
        // fullStack.displayDetails();
@@ -27,6 +27,9 @@ public class Main {
 //Car[] cars = {car,car2,car3};
 //for (int i = 0; i < cars.length; i++);
 //cars[1].display();
+
+        LoginCheck check = new LoginCheck();
+        check.Check();
         }
     }
 
