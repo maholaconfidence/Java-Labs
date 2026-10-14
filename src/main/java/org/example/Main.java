@@ -17,12 +17,12 @@ public class Main {
         //NumberAnalysis results = new NumberAnalysis();
         //results.Number();
 
-        FullStack fullStack = new FullStack("Karabo",54,"female");
-       // fullStack.displayDetails();
+        FullStack fullStack = new FullStack("Karabo", 54, "female");
+        // fullStack.displayDetails();
 
-        Car car = new Car("red","Toyota","Canry",2020);
-        Car car2 = new Car("black","Honda","Civic",2022);
-        Car car3 = new Car("white","Ford","Mustang",2023);
+        Car car = new Car("red", "Toyota", "Canry", 2020);
+        Car car2 = new Car("black", "Honda", "Civic", 2022);
+        Car car3 = new Car("white", "Ford", "Mustang", 2023);
 
 //Car[] cars = {car,car2,car3};
 //for (int i = 0; i < cars.length; i++);
@@ -32,7 +32,11 @@ public class Main {
         check.Check();
 
         StudentMarks marks = new StudentMarks();
-            marks.Marks();
-        }
+        marks.Marks();
+
+        ArrayStatistics array = new ArrayStatistics(new int[]{5, 2, 10, 4, 15, 8, 25});
+        array.display();
+//        System.out.println(array.getSmallestNum());
     }
+}
 
