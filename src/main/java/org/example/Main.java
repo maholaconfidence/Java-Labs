@@ -30,6 +30,9 @@ public class Main {
 
         LoginCheck check = new LoginCheck();
         check.Check();
+
+        StudentMarks marks = new StudentMarks();
+            marks.Marks();
         }
     }
 
