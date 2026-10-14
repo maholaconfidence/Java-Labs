@@ -11,8 +11,14 @@ public class Main {
 //        System.out.println("Registered:"+ isRegistered);
 
 
-        PassOrFail results = new PassOrFail();
-        results.learnerResults();
+        //PassOrFail results = new PassOrFail();
+        //results.learnerResults();
+
+        NumberAnalysis results = new NumberAnalysis();
+        results.Number();
+
+        FullStack fullStack = new FullStack("Karabo",54,"female");
+        fullStack.displayDetails();
 
 
         }
