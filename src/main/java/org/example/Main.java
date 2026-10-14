@@ -20,7 +20,13 @@ public class Main {
         FullStack fullStack = new FullStack("Karabo",54,"female");
         fullStack.displayDetails();
 
+        Car car = new Car("red","Toyota","Canry",2020);
+        Car car2 = new Car("black","Honda","Civic",2022);
+        Car car3 = new Car("white","Ford","Mustang",2023);
 
+Car[] cars = {car,car2,car3};
+for (int i =0; i < cars.length; i++);
+cars[1].display();
         }
     }
 
