@@ -36,7 +36,7 @@ public class Main {
 
         ArrayStatistics array = new ArrayStatistics(new int[]{5, 2, 10, 4, 15, 8, 25});
         array.display();
-//        System.out.println(array.getSmallestNum());
+//
     }
 }
 

@@ -14,6 +14,7 @@ public class ArrayStatistics {
     int numElements;
 
     ArrayStatistics(int[] nums){
+
         this.nums = nums;
     }
 
@@ -22,8 +23,19 @@ public class ArrayStatistics {
         return _numElements;
     }
 
-    int getHighestNum(){
-        //{5,2,10, 4, 15, 8, 25}
+    int getLowestNum(){
+        int _lowestValue = nums[2];
+        for (int i = 0; i < nums.length; i++){
+            if(nums[i] < _lowestValue){
+                _lowestValue = nums[i];
+            }
+        }
+
+        return _lowestValue;
+    }
+
+        int getHighestNum(){
+
         int _largestValue = nums[4]; //15
         for (int i = 0; i < nums.length; i++){
             if (nums[i] > _largestValue){
@@ -35,9 +47,13 @@ public class ArrayStatistics {
 
     void display(){
         largestValue = getHighestNum();
+        smallestValue = getLowestNum();
         numElements = getNumberOfElements();
         System.out.println("Highest number: "+largestValue+"\n" +
                 "Number of elements: "+numElements);
+        System.out.println("Lowest number: "+smallestValue+"\n" +
+                "Number of elements: "+numElements);
+
     }
 
 }
