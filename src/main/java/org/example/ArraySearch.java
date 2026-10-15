@@ -1,9 +1,14 @@
 package org.example;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ArraySearch {
     int[] nums;
     int index;
     boolean foundTarget;
+
+
 
     ArraySearch(int[] nums) {
         this.nums = nums;
@@ -21,5 +26,6 @@ public class ArraySearch {
         if (!foundTarget){
             System.out.println("Value not found");
         }
+
     }
 }
