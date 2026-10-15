@@ -36,12 +36,14 @@ public class Main {
 
         ArrayStatistics array = new ArrayStatistics(new int[]{5, 2, 10, 2, 15, 8, 25});
         array.display();
-
         ArraySearch search = new ArraySearch(new int[]{2,1,6,8,0,0,6,5,4,3,2,5});
-        search.getIndexNum(26);
+search.getIndexNum(26);
 
         EvenOddArray EvenOddArray = new EvenOddArray(new int[]{4,5,6,5,4,6,5,3,5,});
         EvenOddArray.countNum();
+
+        ReverseArray reverse = new ReverseArray(new int[]{1,2,3,4,5,6});
+        reverse.Reverse();
 
     }
 }

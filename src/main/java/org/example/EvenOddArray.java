@@ -1,5 +1,5 @@
 //Create EvenOddArray. Count the even and odd values in an integer array.
-//Challenge: Store the even and odd values in separate arrays or lists.
+//Challenge: Store the even and odd values in separate arrays or
 
 package org.example;
 
@@ -10,6 +10,7 @@ public class EvenOddArray {
     int[] nums;
     int odd = 0;
     int even = 0;
+
     List<Integer> evenListNum = new ArrayList<>(even);
     List<Integer> oddListNum = new ArrayList<>(odd);
 
