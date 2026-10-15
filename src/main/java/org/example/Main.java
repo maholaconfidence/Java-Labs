@@ -45,6 +45,10 @@ search.getIndexNum(26);
         ReverseArray reverse = new ReverseArray(new int[]{1,2,3,4,5,6});
         reverse.Reverse();
 
+        Student student = new Student("Karabo", "367nokk", 67.0);
+        student.displayDetails();
+        student.hasPassed();
+
     }
 }
 
