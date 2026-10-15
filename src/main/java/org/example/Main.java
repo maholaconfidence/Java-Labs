@@ -34,9 +34,11 @@ public class Main {
         StudentMarks marks = new StudentMarks();
         marks.Marks();
 
-        ArrayStatistics array = new ArrayStatistics(new int[]{5, 2, 10, 4, 15, 8, 25});
+        ArrayStatistics array = new ArrayStatistics(new int[]{5, 2, 10, 2, 15, 8, 25});
         array.display();
-//
+
+        ArraySearch search = new ArraySearch(new int[]{2,1,6,8,0,0,6,5,4,3,2,5});
+        search.getIndexNum(26);
     }
 }
 
