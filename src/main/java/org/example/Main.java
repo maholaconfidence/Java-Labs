@@ -49,6 +49,36 @@ search.getIndexNum(26);
         student.displayDetails();
         student.hasPassed();
 
+        Student student1 = new Student("Palesa", "jnj1", 70);
+        Student student2 = new Student("Bongani", "ddn9", 90);
+
+        student1.displayDetails();
+        student1.hasPassed();
+        student2.displayDetails();
+        student2.hasPassed();
+
+        BankAccount account = new BankAccount("Palesa", "1273899", 5900);
+        BankAccount account1 = new BankAccount("Karabo", "127479", 60000);
+              account.withDraw(89);
+              account.getBalance();
+
+              account1.deposit(5758);
+              account1.getBalance();
+
+              Rectangle rec1 = new Rectangle(23, 45);
+              Rectangle rec2 = new Rectangle(2,56);
+              rec1.area();
+              rec1.perimeter();
+              rec2.area();
+              rec2.perimeter();
+
+              Product item = new Product("577","laptop", 1, 1299);
+              item.displayDetails();
+              item.addStock(9);
+              item.reduce(4);
+              item.calcStockValue();
+
+
     }
 }
 
