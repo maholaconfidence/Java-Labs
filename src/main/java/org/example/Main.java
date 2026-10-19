@@ -37,13 +37,13 @@ public class Main {
 
         ArrayStatistics array = new ArrayStatistics(new int[]{5, 2, 10, 2, 15, 8, 25});
         array.display();
-        ArraySearch search = new ArraySearch(new int[]{2,1,6,8,0,0,6,5,4,3,2,5});
-search.getIndexNum(26);
+        ArraySearch search = new ArraySearch(new int[]{2, 1, 6, 8, 0, 0, 6, 5, 4, 3, 2, 5});
+        search.getIndexNum(26);
 
-        EvenOddArray EvenOddArray = new EvenOddArray(new int[]{4,5,6,5,4,6,5,3,5,});
+        EvenOddArray EvenOddArray = new EvenOddArray(new int[]{4, 5, 6, 5, 4, 6, 5, 3, 5,});
         EvenOddArray.countNum();
 
-        ReverseArray reverse = new ReverseArray(new int[]{1,2,3,4,5,6});
+        ReverseArray reverse = new ReverseArray(new int[]{1, 2, 3, 4, 5, 6});
         reverse.Reverse();
 
         Student student = new Student("Karabo", "367nokk", 67.0);
@@ -60,24 +60,24 @@ search.getIndexNum(26);
 
         BankAccount account = new BankAccount("Palesa", "1273899", 5900);
         BankAccount account1 = new BankAccount("Karabo", "127479", 60000);
-              account.withDraw(89);
-              account.getBalance();
+        account.withDraw(89);
+        account.getBalance();
 
-              account1.deposit(5758);
-              account1.getBalance();
+        account1.deposit(5758);
+        account1.getBalance();
 
-              Rectangle rec1 = new Rectangle(23, 45);
-              Rectangle rec2 = new Rectangle(2,56);
-              rec1.area();
-              rec1.perimeter();
-              rec2.area();
-              rec2.perimeter();
+        Rectangle rec1 = new Rectangle(23, 45);
+        Rectangle rec2 = new Rectangle(2, 56);
+        rec1.area();
+        rec1.perimeter();
+        rec2.area();
+        rec2.perimeter();
 
-              Product item = new Product("577","laptop", 1, 1299);
-              item.displayDetails();
-              item.addStock(9);
-              item.reduce(4);
-              item.calcStockValue();
+        Product item = new Product("577", "laptop", 1, 1299);
+        item.displayDetails();
+        item.addStock(9);
+        item.reduce(4);
+        item.calcStockValue();
 
               Car1 carOne = new Car1("BMW", "2 series", 2021);
                carOne.getMake();
@@ -87,6 +87,7 @@ search.getIndexNum(26);
                carOne.getYear();
         System.out.println(carOne.getYear());
 
+<<<<<<< HEAD
         carOne.setMake("Mercedes");
         System.out.println(carOne.setMake("Mercedes"));
 
@@ -98,6 +99,42 @@ search.getIndexNum(26);
 
         Child2 child2 = new Child2();
         System.out.println("You have a qulification in: " + child2.qualification);
+=======
+        Student5 studentOne = new Student5("367786", "Karabo", new double[]{50, 20, 40});
+        studentOne.calcAvg();
+        studentOne.hasPassed();
+        studentOne.displaySummary();
+        Student5 studentTwo = new Student5("367786", "Thabo", new double[]{50, 70, 80});
+        studentTwo.calcAvg();
+        studentTwo.hasPassed();
+        studentTwo.displaySummary();
+        Student5 studentThree = new Student5("367786", "Palesa", new double[]{60, 90, 80});
+        studentThree.calcAvg();
+        studentThree.hasPassed();
+        studentThree.displaySummary();
+
+        Product[] cart = {
+                new Product5("Laptop", 850.00, 1),
+                new Product5("Smartphone", 300.00, 2),
+                new Product5("Headphones", -50.00, 1),
+                new Product5("Mouse", 25.00, -3)
+
+
+
+        };
+>>>>>>> 9b94d6ae3ce99a51f51324bbcb428fc84218b207
     }
+
+   // Exercise 6.1: Incorrect String comparison
+   // Explain why the following code may print Different text, then correct it to compare String contents.
+
+           // String first = new String("Java");
+    //String second = new String("Java");
+
+//if (first == second) {
+      //  System.out.println("Same text");
+  // } else {
+   //     System.out.println("Different text");
+  //  }
 }
 
