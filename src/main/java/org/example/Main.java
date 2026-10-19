@@ -1,4 +1,5 @@
 package org.example;
+
 public class Main {
     static void main() {
 //        String name = "Confidence";
@@ -78,7 +79,25 @@ search.getIndexNum(26);
               item.reduce(4);
               item.calcStockValue();
 
+              Car1 carOne = new Car1("BMW", "2 series", 2021);
+               carOne.getMake();
+        System.out.println(carOne.getMake());
+               carOne.getModel();
+        System.out.println(carOne.getModel());
+               carOne.getYear();
+        System.out.println(carOne.getYear());
 
+        carOne.setMake("Mercedes");
+        System.out.println(carOne.setMake("Mercedes"));
+
+        //Inheritance
+        //Parent child = new Parent();
+
+        Child child1 = new Child();
+        System.out.println("Youchild had a qualification in:"+ child1.qualification);
+
+        Child2 child2 = new Child2();
+        System.out.println("You have a qulification in: " + child2.qualification);
     }
 }
 
